@@ -56,12 +56,51 @@ table {
 
 //Beginning of the CSS Code//
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
+
+
+*{
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin: 0px auto;
+	max-width: 100%;
 }
 
 html, body {
-	background: skyblue;
-    height: 100%;
+	background: rgb(4, 57, 78);
+	height: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin: 0px auto;
+	padding: 2%;
 }
+
+//CSS for the whole top section//
+
+.navigation {
+		max-width: 100%;
+		height: 80px;
+
+		.nav {
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			}//closes .nav//
+
+		.nav a {
+			text-decoration: none;
+			font-size: 25px;
+			color: white;
+			font-family: 'Muli', sans-serif;
+			}//closes .nav a//
+
+		.nav a:hover {
+			text-decoration: underline;
+			}//closes .nav a:hover//
+} //closes navigation//
+
+
+	
+
+
+
 
