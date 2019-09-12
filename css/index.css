@@ -126,6 +126,24 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'Hepta Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/heptaslab/v2/ea8JadoyU_jkHdalebHvyWVNdYoIsHe5HvkV5wfcaZQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v16/7Auwp_0qiz-afTLGKA.ttf) format('truetype');
+}
+.flip-horizontal-bottom {
+  -webkit-animation: flip-horizontal-bottom 1.5s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite reverse both;
+  animation: flip-horizontal-bottom 1.5s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite reverse both;
+}
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
