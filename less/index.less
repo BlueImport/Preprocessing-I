@@ -49,9 +49,10 @@ table {
 }
 @import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Muli&display=swap');
 
-.flip-horizontal-bottom {
-	-webkit-animation: flip-horizontal-bottom 1.5s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite reverse both;
-	        animation: flip-horizontal-bottom 1.5s cubic-bezier(0.600, -0.280, 0.735, 0.045) infinite reverse both;
+.whitetxt {
+	color: white;
+	font-size: 20px;
+	font-family: 'Hepta Slab', serif;
 }
 
 //Beginning of the CSS Code//
@@ -66,7 +67,7 @@ table {
 }
 
 html, body {
-	background: rgb(4, 57, 78);
+	background: skyblue;
 	height: 100%;
 	max-width: 100%;
 	box-sizing: border-box;
@@ -89,17 +90,90 @@ html, body {
 		.nav a {
 			text-decoration: none;
 			font-size: 25px;
-			color: white;
+			color: darkslategrey;
 			font-family: 'Muli', sans-serif;
 			}//closes .nav a//
 
 		.nav a:hover {
 			text-decoration: underline;
 			}//closes .nav a:hover//
+		
+		.nav a:visited {
+			color: white;
+		}
 } //closes navigation//
 
+.middlesection {
+	border: 3px solid black;
+	max-width: 100%;
+}
 
+.aboutMe {
+	height: 300x;
+	margin: 0, auto;
+	padding: 2%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	h2 {
+		font-size: 25px;
+		color: darkslategray;
+		font-family: 'Muli', sans-serif;
+		margin: 2%;
+		padding: 1%;
+		flex-flow: row wrap;
+		justify-content: center;
+	}//closes h2//
+
+	p {
+		.whitetxt ();
+	}//closes p//
+}//closes .aboutMe//
+
+.skills {
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	h2 {
+		font-size: 25px;
+		color: darkslategray;
+		font-family: 'Muli', sans-serif;
+		margin: 2%;
+		padding: 1%;
+
+		ul {
+		.whitetxt ();
+	}//closes ul
+	}//closes h2//
 	
+	
+}/closes .skills//
+
+.workHistory {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	margin: 2%;
+	box-sizing: border-box;
+	
+	.experience {
+		font-size: 25px;
+		color: darkslategray;
+		font-family: 'Muli', sans-serif;
+		margin: 2%;
+		padding: 1%;
+	}//closes .experience//
+
+	h4 {
+		.whitetxt ();
+	}//closes h4//
+}//closes .workHistory//
 
 
 
